@@ -1,61 +1,3 @@
-step 1:start
-step 2:initialize Bus Reservation data:
-      * Create a data structure for buses, which includes:
-
-Bus number
-
-Destination 
-
-*Booking status (whether a seat is reserved or available).
-*Initialize a fixed number of buses and set their initial states.(e.g. 4 buses with each bus having 40 seats available at the start).
-
-step 3:Display Menu:
-      
-Present the main menu to the user with these options:
-
-
-Main Menu:
-1. Book a ticket 
-2. Cancel a Ticket 
-3. Check Bus Status
-4. Logout the program.
-
-step 4:Book a ticket(option 1):
-       * 1. Ask the user to choose a bus by entering a bus number or index.
-
-
-2. Display available bus numbers to book a seat.
-
-3. Check if the seat is already reserved or not :
-
-
-Inform the user of success.
-
-If already reserved, inform the user of failure.
-
-step 5:Cancle a ticket(option 2):
-
-1. Ask the user to input the bus number to cancel the reservation.
-
-
-2. Check if the reservation exists:
-
-If it exists:
-
-Mark the seat as available.
-
-Confirm cancellation to the user.
-
-step 6:Check Bus Reservation(option 3):
-       *Loop through each bus and display:
-
-Bus number
-
-Destination 
-
-      *If the bus is not booked,inform the user.
-step 7:Stop(option 4):
-       *End the program.
 // C Program to implement Bus Reservation System
 #include<stdio.h>
 #include<stdlib.h>
@@ -199,15 +141,14 @@ int main(){
     printf("|                              |\n ");
     printf("|     DESIGNED BY              |\n ");
     printf("|          * RAKSHITHA SINGH.  |\n ");
-    printf("|          * MANASA            |\n ");
+    printf("|          * DEVIKA            |\n ");
     printf("|          * HEMA SRI          |\n ");
-    printf("|          * RAKSHITHA SRI     |\n ");
-    printf("|          * POOJITHA          |\n ");
+    printf("|          * SIREESHA          |\n ");
     printf("|                              |\n ");
     printf("================================");
     
     struct User users[1] = {
-        {"Rakshitha", "4268"},
+        {"ECE", "1234"},
     };
     int numUsers = 1;  
 
